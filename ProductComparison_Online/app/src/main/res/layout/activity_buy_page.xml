@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BuyPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="50dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/buyname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textStyle="bold"
+                    android:textColor="#111"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:padding="20dp"
+                    android:gravity="left"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitXY"
+                    android:id="@+id/buyimage"
+                    android:src="@drawable/textcol"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="Originally published:"
+                        android:paddingLeft="20dp"
+                        android:textColor="#111"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/buypublished"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="#111"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center_vertical"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="Author:"
+                        android:paddingLeft="20dp"
+                        android:textColor="#111"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center_vertical"/>
+
+
+                    <TextView
+                    android:id="@+id/buyauthor"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="#111"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center_vertical"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="Price : "
+                        android:paddingLeft="20dp"
+                        android:textColor="#FF9800"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center_vertical"/>
+
+                    <TextView
+                        android:id="@+id/buyprice"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:textColor="#FF9800"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center_vertical"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Original language: English"
+                    android:paddingLeft="20dp"
+                    android:textColor="#111"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center_vertical"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="Ratting :"
+                        android:textColor="#111"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_medium"
+                        android:paddingLeft="20dp"
+                        android:gravity="center_vertical"/>
+
+                    <TextView
+                        android:id="@+id/buyratting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:paddingLeft="10dp"
+                        android:textSize="20dp"
+                        android:textColor="#0091EA"
+                        android:drawableRight="@drawable/star"
+                        android:gravity="center_vertical"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Discription :"
+                    android:textColor="#111"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:paddingLeft="20dp"
+                    android:gravity="center_vertical"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Discription :"
+                    android:textColor="#111"
+                    android:textStyle="bold"
+                    android:id="@+id/buydiscription"
+                    android:fontFamily="@font/poppins_medium"
+                    android:paddingLeft="40dp"
+                    android:gravity="center_vertical"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="BUY"
+                        android:id="@+id/buybookbutton"
+                        android:background="@drawable/buttonshape"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

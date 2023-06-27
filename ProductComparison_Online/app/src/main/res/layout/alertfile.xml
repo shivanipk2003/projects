@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:text="Delivery Address"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#111"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Username"
+        android:textStyle="italic"
+        android:textColor="#0091EA"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editalert1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#111"
+        android:background="@drawable/editback"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        android:fontFamily="@font/poppins_light"
+        android:textSize="15dp"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="Ph.Number"
+        android:fontFamily="@font/poppins_medium"
+        android:textStyle="italic"
+        android:textColor="#0091EA"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editalert2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#111"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:maxLength="10"
+        android:paddingLeft="15dp"
+        android:fontFamily="@font/poppins_light"
+        android:background="@drawable/editback"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:text="Address"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="#111"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Door No:"
+            android:textStyle="italic"
+            android:textColor="#0091EA"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editalert3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#111"
+            android:background="@drawable/editback"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_light"
+            android:paddingLeft="15dp"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Street :"
+            android:textStyle="italic"
+            android:textColor="#0091EA"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editalert4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#111"
+            android:background="@drawable/editback"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_light"
+            android:paddingLeft="15dp"
+            android:textSize="15dp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/poppins_medium"
+            android:text="City :"
+            android:textStyle="italic"
+            android:textColor="#0091EA"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editalert5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#111"
+            android:background="@drawable/editback"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="15dp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/poppins_medium"
+            android:text="PinCode:"
+            android:textStyle="italic"
+            android:textColor="#0091EA"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editalert6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#111"
+            android:background="@drawable/editback"
+            android:textStyle="bold"
+            android:inputType="number"
+            android:maxLength="6"
+            android:paddingLeft="15dp"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

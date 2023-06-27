@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.productcomparison_online">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="QPRA"
+        android:roundIcon="@drawable/appiconcircle"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProductComparison_Online">
+        <activity
+            android:name=".SuccessPage"
+            android:exported="false" />
+        <activity
+            android:name=".CashOnDelivery"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentChoosePage"
+            android:exported="false" />
+        <activity
+            android:name=".Logoutpage"
+            android:exported="false" />
+        <activity
+            android:name=".Product_History_Details"
+            android:exported="false" />
+        <activity
+            android:name=".Paymentdetails"
+            android:exported="false" />
+        <activity
+            android:name=".VerifcationPage"
+            android:exported="false" />
+        <activity
+            android:name=".Otpverification"
+            android:exported="false" />
+        <activity
+            android:name=".Paymentpage1"
+            android:exported="false" />
+        <activity
+            android:name=".BuyOtherProducts"
+            android:exported="false" />
+        <activity
+            android:name=".BuyPage"
+            android:exported="false" />
+        <activity
+            android:name=".Gadgetlist"
+            android:exported="false" />
+        <activity
+            android:name=".Headsetlist"
+            android:exported="false" />
+        <activity
+            android:name=".Watchlist"
+            android:exported="false" />
+        <activity
+            android:name=".Booklist"
+            android:exported="true" />
+        <activity
+            android:name=".Choosepage"
+            android:exported="true" />
+        <activity
+            android:name=".Loginpage"
+            android:exported="true" />
+        <activity
+            android:name=".Registrationpage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

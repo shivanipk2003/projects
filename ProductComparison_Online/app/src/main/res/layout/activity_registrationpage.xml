@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/textcol"
+    tools:context=".Registrationpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/appiconcircle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:text="OPRA"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#111"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add New User!!"
+                android:textStyle="bold"
+                android:textColor="#164AE8"
+                android:textSize="25dp"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="60dp"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:id="@+id/cedit1"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:hint="User Name"
+                    android:fontFamily="@font/poppins_medium"
+
+                    android:textColor="#1F65F1"
+                    android:background="@drawable/editback"
+                    android:textSize="15dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="20dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true"
+                android:id="@+id/cedit2"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:hint="Password"
+
+                    android:textColor="#1F65F1"
+                    android:inputType="textPassword"
+
+                    android:background="@drawable/editback"
+                    android:textSize="15dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="20dp"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:id="@+id/cedit3"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:hint="E-mail"
+                    android:fontFamily="@font/poppins_medium"
+
+                    android:textColor="#1F65F1"
+
+                    android:background="@drawable/editback"
+                    android:textSize="15dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="20dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:id="@+id/cedit4"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:hint="Ph.Number"
+
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:textColor="#1F65F1"
+                    android:fontFamily="@font/poppins_medium"
+                    android:background="@drawable/editback"
+                    android:textSize="15dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="30dp"/>
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Create"
+                android:background="@drawable/buttonshape"
+                android:id="@+id/cbut"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
